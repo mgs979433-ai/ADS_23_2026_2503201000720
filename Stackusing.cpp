@@ -16,6 +16,7 @@ bool isFull()
     return (top == MAX - 1);
 }
 
+// Push 
 void push(int value)
 {
     if (isFull())
@@ -30,6 +31,7 @@ void push(int value)
     }
 }
 
+// POP Opration
 void pop()
 {
     if (isEmpty())
@@ -43,6 +45,7 @@ void pop()
     }
 }
 
+// Peek Opration 
 void peek()
 {
     if (isEmpty())
@@ -55,6 +58,7 @@ void peek()
     }
 }
 
+// Display Stack 
 void displayStack()
 {
     if (isEmpty())
@@ -72,6 +76,7 @@ void displayStack()
     }
 }
 
+// Main Function 
 int main()
 {
     int choice, value;
